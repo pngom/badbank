@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Bad Bank Exercise <img src="https://d3srxiunz7lgh6.cloudfront.net/absvbe0kj84117vh7z2uj39tlyb9" alt="MIT Coding Program" width="20%">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an assignment that I completed to fulfill the requirements of the [MIT Professional Certificate in Coding using MERN.](https://executive-ed.xpro.mit.edu/professional-certificate-coding?u)  
 
-## Available Scripts
+It is called Bad Bank because the collected user credentials are displayed on a page!
 
-In the project directory, you can run:
+The following learning outcomes are met:
+* **Build, test, and deploy a React application**
+* **Design and build UI components using React**
 
-### `npm start`
+The assignment involved refactoring and building functionality to produce website pages with good user experience:
+1. Navigation bar: includes routing for responsiveness/fast loading, bootstrap styling, highlighting and mouse hover effects for a better viewing experience
+2. Create Account page: displays in a styled card input fields with relevant validation to collect user data (name, email, password). Displays event alerts.
+3. Account deposit page: displays in a styled card a deposit input field with relevant validation, the account balance and an event alert
+4. Account withdrawal page: displays in a styled card a withdrawal input field with relevant validation, the account balance and an event alert
+5. All Data page: displays in a styled table users' data collected in the Create Account page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Repository File Structure
+There are various folders/files listed in this repository that map to the pages or utilities: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [public folder](https://github.com/pngom/badbank/tree/main/public) containing the index.html file and the index.js file
+* [src folder](https://github.com/pngom/badbank/tree/main/src) containing a pages folder (in it 5 .jsx files mapping to the 5 pages above), a components folder (in it the Navbar files) and a utils folder (in it the context file that defines global state variables)
+* [package.json](https://github.com/pngom/badbank/blob/main/package.json) containing all dependencies installed with npm to build the react app
 
-### `npm test`
+## Roadmap of future improvements
+Build features to reproduce the basic original Pacman game:
+- add a login page
+- add a back end functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributors
+- Pappe Ngom
+- MIT xPRO
 
-### `npm run build`
+## License information
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+MIT License 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Copyright (c) 2021 Pappe Ngom
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### `npm run eject`
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
